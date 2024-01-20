@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/full_stack_db
+    username: postgres
+    password: DeveloperJava1993
+jpa:
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+  hibernate:
+    ddl-auto: update
+    show-sql: true
